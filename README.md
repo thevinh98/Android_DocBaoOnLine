@@ -1,2 +1,2 @@
-# Android_DocBaoOnLine Android
-ứng dụng đọc báo online
+# Android_DocBaoOnLine 
+ứng dụng đọc báo online Android
