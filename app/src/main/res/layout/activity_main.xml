@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:id="@+id/screenmain">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#186CA8">.
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_dictionary"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:src="@drawable/face7"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="80dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@mipmap/ic_search"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"/>
+            <EditText
+                android:layout_width="180dp"
+                android:layout_height="100dp"
+                android:hint="Nhập từ cần tra"
+                android:textColorHint="#F7F5F4"
+                android:background="@color/blue"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical"
+                android:typeface="serif"
+                android:textColor="@color/white"/>
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center_vertical"
+                android:background="@mipmap/ic_voice"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnTDVA"
+        style="@style/btn_style"
+        android:drawableLeft="@drawable/td"
+        android:text="Từ điển Việt Anh"/>
+    <Button
+        style="@style/btn_style"
+        android:text="Dịch văn bản"
+        android:drawableLeft="@drawable/translation"
+        android:id="@+id/btnDVB"/>
+    <Button
+        style="@style/btn_style"
+        android:text="Từ đã tra"
+        android:drawableLeft="@drawable/searched"
+        android:id="@+id/btnTDT"/>
+    <Button
+        style="@style/btn_style"
+        android:layout_height="wrap_content"
+        android:text="Từ yêu thích"
+        android:drawableLeft="@drawable/love"
+        android:id="@+id/btnTYT"/>
+    <Button
+        style="@style/btn_style"
+        android:text="Động từ bất quy tắc"
+        android:drawableLeft="@drawable/vocabulary"
+        android:id="@+id/btnTVQT"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="@drawable/should2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
